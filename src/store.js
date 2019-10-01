@@ -40,7 +40,7 @@ const actions = {
 
 //包含多个getter计算属性函数的对象
 const getters = {
-  evenOrOdd(state) {
+  evenOrOdd2(state) {
     return state.count % 2 === 1 ? "奇数" : "偶数"
   }
 }
